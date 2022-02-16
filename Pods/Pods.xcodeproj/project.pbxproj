@@ -1,0 +1,884 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		84CA3424E172CD651235AF0783D01D39 /* razorpay-pod */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7D1E60C3273CD321CBBBF93B81A07367 /* Build configuration list for PBXAggregateTarget "razorpay-pod" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "razorpay-pod";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		522798F5FC3A7788D957A06DCDF76254 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7E4DE6FB8AF3900BBDA8349E794FD9A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		82DD87CB5FD5357CA639B48EDB9D5D72 /* Pods-RazorPay APP-RazorPay APPUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58EF6DD07C85F6C50B95EFE512F66CE1 /* Pods-RazorPay APP-RazorPay APPUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90FF42F54389A7C5C1784AAC095D26C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AC390B5BC7F8F5847FFB8A31A634FA45 /* Pods-RazorPay APPTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87272D309062813E990E3C0FFEEC6BDC /* Pods-RazorPay APPTests-dummy.m */; };
+		BA5D7617FF1D99DF492C662F7BF57F10 /* Pods-RazorPay APP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B38BC0D49166814654FBF238B3FD467B /* Pods-RazorPay APP-dummy.m */; };
+		C2A953AB245AC53AE03690CAF46258E4 /* Pods-RazorPay APP-RazorPay APPUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 606134837FD5FB14CEED8691153EC157 /* Pods-RazorPay APP-RazorPay APPUITests-dummy.m */; };
+		ED0FB7A15A8D2E67C874412489E320BB /* Pods-RazorPay APP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D5057ACADFBF378BAB620366888FC4 /* Pods-RazorPay APP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC2F86753419B71DE1D3C3F4181A0277 /* Pods-RazorPay APPTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 358D6127F7D41A56BFBD1C6CE58627D0 /* Pods-RazorPay APPTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B5188970771D2BDBE437A6ACD1CBB13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CA3424E172CD651235AF0783D01D39;
+			remoteInfo = "razorpay-pod";
+		};
+		4F48C725EEF6291C7412B32583CC473F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 254C3F60F04D930A7EED2A399C4C0F5E;
+			remoteInfo = "Pods-RazorPay APP";
+		};
+		F635F0257E31F8097FD56288DA9FC290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CA3424E172CD651235AF0783D01D39;
+			remoteInfo = "razorpay-pod";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DEEC01A2D227CD3046687C088A5C7D2 /* Pods-RazorPay APP-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RazorPay APP-acknowledgements.plist"; sourceTree = "<group>"; };
+		11FDD61A71610DF2268ECB493D508987 /* Pods-RazorPay APP-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RazorPay APP-frameworks.sh"; sourceTree = "<group>"; };
+		120178BD89C7B2347D25247E1C2E80AF /* razorpay-pod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "razorpay-pod.debug.xcconfig"; sourceTree = "<group>"; };
+		1937B6BF5D6CBBBF7F16ADF79F229BAF /* Pods-RazorPay APP-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RazorPay APP-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A98EE791518B5D60CBAC3EA67248E20 /* Pods-RazorPay APP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RazorPay APP.debug.xcconfig"; sourceTree = "<group>"; };
+		23988868F8A98A2BA6CE161432427D2C /* Pods-RazorPay APP-RazorPay APPUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RazorPay APP-RazorPay APPUITests-frameworks.sh"; sourceTree = "<group>"; };
+		358D6127F7D41A56BFBD1C6CE58627D0 /* Pods-RazorPay APPTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RazorPay APPTests-umbrella.h"; sourceTree = "<group>"; };
+		431BA304B1DEC984AB385B771B0874F0 /* Pods-RazorPay APP */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RazorPay APP"; path = Pods_RazorPay_APP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58EF6DD07C85F6C50B95EFE512F66CE1 /* Pods-RazorPay APP-RazorPay APPUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RazorPay APP-RazorPay APPUITests-umbrella.h"; sourceTree = "<group>"; };
+		5C4A409F9DADE6C6ED233A519F7F756A /* Razorpay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Razorpay.framework; path = Pod/Razorpay.framework; sourceTree = "<group>"; };
+		5DC5A6291D7B16B50960338D2D0BCC48 /* Pods-RazorPay APP-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RazorPay APP-Info.plist"; sourceTree = "<group>"; };
+		5F83F5374624D937E926896FEDF11E65 /* Pods-RazorPay APP-RazorPay APPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RazorPay APP-RazorPay APPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F9C3B218EC192D6898A1F891D39B6F5 /* Pods-RazorPay APP-RazorPay APPUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RazorPay APP-RazorPay APPUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		606134837FD5FB14CEED8691153EC157 /* Pods-RazorPay APP-RazorPay APPUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RazorPay APP-RazorPay APPUITests-dummy.m"; sourceTree = "<group>"; };
+		63BBE319F0241014AB6D34DDEE35BD1A /* Pods-RazorPay APPTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RazorPay APPTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68ACD44654F3D19B4E1B4731DB84985A /* razorpay-pod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "razorpay-pod.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D2CD630E0E446E0685C3AEFB1CD607B /* Pods-RazorPay APPTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RazorPay APPTests-Info.plist"; sourceTree = "<group>"; };
+		800E913294FE8F93CDF8BC9DE63E6382 /* Pods-RazorPay APP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RazorPay APP.release.xcconfig"; sourceTree = "<group>"; };
+		81B17E0D9185BF19C72BC42995EB13B3 /* Pods-RazorPay APPTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RazorPay APPTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		87272D309062813E990E3C0FFEEC6BDC /* Pods-RazorPay APPTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RazorPay APPTests-dummy.m"; sourceTree = "<group>"; };
+		8DCD4A73C369D173EF5B54EBFF132578 /* Pods-RazorPay APP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RazorPay APP.modulemap"; sourceTree = "<group>"; };
+		9582B1BD365286B7BCAB244F4007D5C2 /* Pods-RazorPay APP-RazorPay APPUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RazorPay APP-RazorPay APPUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		96554FB6F2AE72761D2819272DB6FF51 /* Pods-RazorPay APPTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RazorPay APPTests.modulemap"; sourceTree = "<group>"; };
+		97E631A2BBC07D2EA73FB4AAF20E4404 /* Pods-RazorPay APPTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RazorPay APPTests"; path = Pods_RazorPay_APPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D75FDD4A02F9BE59FA3537D1E5FE230 /* Pods-RazorPay APP-RazorPay APPUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RazorPay APP-RazorPay APPUITests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9BA089EFA0697578E4AF1BBE0318812 /* Pods-RazorPay APP-RazorPay APPUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RazorPay APP-RazorPay APPUITests"; path = Pods_RazorPay_APP_RazorPay_APPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38BC0D49166814654FBF238B3FD467B /* Pods-RazorPay APP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RazorPay APP-dummy.m"; sourceTree = "<group>"; };
+		B5D5057ACADFBF378BAB620366888FC4 /* Pods-RazorPay APP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RazorPay APP-umbrella.h"; sourceTree = "<group>"; };
+		B5EC2FA811A02412E5AD0D04AE404027 /* Pods-RazorPay APP-RazorPay APPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RazorPay APP-RazorPay APPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B7F63E8EC9D3D4E63777CD40E1E1A943 /* Pods-RazorPay APP-RazorPay APPUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RazorPay APP-RazorPay APPUITests-Info.plist"; sourceTree = "<group>"; };
+		C3B57FFB53EBBCCABF71F66B8B0B988B /* Pods-RazorPay APPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RazorPay APPTests.release.xcconfig"; sourceTree = "<group>"; };
+		F39E0490B1D6B04D7006A38D5C84991F /* Pods-RazorPay APPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RazorPay APPTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43CBD4C50A8A99268073DEF8576AD734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522798F5FC3A7788D957A06DCDF76254 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0C9CB565B762AC6EC79031E37FEBD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90FF42F54389A7C5C1784AAC095D26C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA06316560EE43A763E7CE3CFABA7AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4DE6FB8AF3900BBDA8349E794FD9A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09B6F8AD6383B0B0BAFBA8783DA21CED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A409F9DADE6C6ED233A519F7F756A /* Razorpay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1869DDE7D09BFBB537612D9BB24C8261 /* Pods-RazorPay APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				96554FB6F2AE72761D2819272DB6FF51 /* Pods-RazorPay APPTests.modulemap */,
+				63BBE319F0241014AB6D34DDEE35BD1A /* Pods-RazorPay APPTests-acknowledgements.markdown */,
+				81B17E0D9185BF19C72BC42995EB13B3 /* Pods-RazorPay APPTests-acknowledgements.plist */,
+				87272D309062813E990E3C0FFEEC6BDC /* Pods-RazorPay APPTests-dummy.m */,
+				7D2CD630E0E446E0685C3AEFB1CD607B /* Pods-RazorPay APPTests-Info.plist */,
+				358D6127F7D41A56BFBD1C6CE58627D0 /* Pods-RazorPay APPTests-umbrella.h */,
+				F39E0490B1D6B04D7006A38D5C84991F /* Pods-RazorPay APPTests.debug.xcconfig */,
+				C3B57FFB53EBBCCABF71F66B8B0B988B /* Pods-RazorPay APPTests.release.xcconfig */,
+			);
+			name = "Pods-RazorPay APPTests";
+			path = "Target Support Files/Pods-RazorPay APPTests";
+			sourceTree = "<group>";
+		};
+		4BD2AE21C8E5E6AD25904BFEF16D0076 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD3C19FA5E55FCF255213F4711695686 /* razorpay-pod */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C975D6F66E23433CA25E1D5A7AF7E01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				431BA304B1DEC984AB385B771B0874F0 /* Pods-RazorPay APP */,
+				A9BA089EFA0697578E4AF1BBE0318812 /* Pods-RazorPay APP-RazorPay APPUITests */,
+				97E631A2BBC07D2EA73FB4AAF20E4404 /* Pods-RazorPay APPTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		524109240979CF1C6FE0284D1F77E6B6 /* Pods-RazorPay APP */ = {
+			isa = PBXGroup;
+			children = (
+				8DCD4A73C369D173EF5B54EBFF132578 /* Pods-RazorPay APP.modulemap */,
+				1937B6BF5D6CBBBF7F16ADF79F229BAF /* Pods-RazorPay APP-acknowledgements.markdown */,
+				0DEEC01A2D227CD3046687C088A5C7D2 /* Pods-RazorPay APP-acknowledgements.plist */,
+				B38BC0D49166814654FBF238B3FD467B /* Pods-RazorPay APP-dummy.m */,
+				11FDD61A71610DF2268ECB493D508987 /* Pods-RazorPay APP-frameworks.sh */,
+				5DC5A6291D7B16B50960338D2D0BCC48 /* Pods-RazorPay APP-Info.plist */,
+				B5D5057ACADFBF378BAB620366888FC4 /* Pods-RazorPay APP-umbrella.h */,
+				1A98EE791518B5D60CBAC3EA67248E20 /* Pods-RazorPay APP.debug.xcconfig */,
+				800E913294FE8F93CDF8BC9DE63E6382 /* Pods-RazorPay APP.release.xcconfig */,
+			);
+			name = "Pods-RazorPay APP";
+			path = "Target Support Files/Pods-RazorPay APP";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		770B17CC2290B50A08FFEEB4A1090DE8 /* Pods-RazorPay APP-RazorPay APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D75FDD4A02F9BE59FA3537D1E5FE230 /* Pods-RazorPay APP-RazorPay APPUITests.modulemap */,
+				5F9C3B218EC192D6898A1F891D39B6F5 /* Pods-RazorPay APP-RazorPay APPUITests-acknowledgements.markdown */,
+				9582B1BD365286B7BCAB244F4007D5C2 /* Pods-RazorPay APP-RazorPay APPUITests-acknowledgements.plist */,
+				606134837FD5FB14CEED8691153EC157 /* Pods-RazorPay APP-RazorPay APPUITests-dummy.m */,
+				23988868F8A98A2BA6CE161432427D2C /* Pods-RazorPay APP-RazorPay APPUITests-frameworks.sh */,
+				B7F63E8EC9D3D4E63777CD40E1E1A943 /* Pods-RazorPay APP-RazorPay APPUITests-Info.plist */,
+				58EF6DD07C85F6C50B95EFE512F66CE1 /* Pods-RazorPay APP-RazorPay APPUITests-umbrella.h */,
+				5F83F5374624D937E926896FEDF11E65 /* Pods-RazorPay APP-RazorPay APPUITests.debug.xcconfig */,
+				B5EC2FA811A02412E5AD0D04AE404027 /* Pods-RazorPay APP-RazorPay APPUITests.release.xcconfig */,
+			);
+			name = "Pods-RazorPay APP-RazorPay APPUITests";
+			path = "Target Support Files/Pods-RazorPay APP-RazorPay APPUITests";
+			sourceTree = "<group>";
+		};
+		A5FDBE487CAB1BA13A67CAC3E56FCB33 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				524109240979CF1C6FE0284D1F77E6B6 /* Pods-RazorPay APP */,
+				770B17CC2290B50A08FFEEB4A1090DE8 /* Pods-RazorPay APP-RazorPay APPUITests */,
+				1869DDE7D09BFBB537612D9BB24C8261 /* Pods-RazorPay APPTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AD3C19FA5E55FCF255213F4711695686 /* razorpay-pod */ = {
+			isa = PBXGroup;
+			children = (
+				09B6F8AD6383B0B0BAFBA8783DA21CED /* Frameworks */,
+				BFD8FA99F7CD6D50F2CFBFA61DC64D46 /* Support Files */,
+			);
+			name = "razorpay-pod";
+			path = "razorpay-pod";
+			sourceTree = "<group>";
+		};
+		BFD8FA99F7CD6D50F2CFBFA61DC64D46 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				120178BD89C7B2347D25247E1C2E80AF /* razorpay-pod.debug.xcconfig */,
+				68ACD44654F3D19B4E1B4731DB84985A /* razorpay-pod.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/razorpay-pod";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4BD2AE21C8E5E6AD25904BFEF16D0076 /* Pods */,
+				4C975D6F66E23433CA25E1D5A7AF7E01 /* Products */,
+				A5FDBE487CAB1BA13A67CAC3E56FCB33 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5221E73D83323497E57170569A0334CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2F86753419B71DE1D3C3F4181A0277 /* Pods-RazorPay APPTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E5CFE0A3FBB2371B9BC256C52B9B4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DD87CB5FD5357CA639B48EDB9D5D72 /* Pods-RazorPay APP-RazorPay APPUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45F11196E12E79A716F62886D6880C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0FB7A15A8D2E67C874412489E320BB /* Pods-RazorPay APP-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		254C3F60F04D930A7EED2A399C4C0F5E /* Pods-RazorPay APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD7B5B31D1A683227DD80E0489060A32 /* Build configuration list for PBXNativeTarget "Pods-RazorPay APP" */;
+			buildPhases = (
+				F45F11196E12E79A716F62886D6880C3 /* Headers */,
+				B2CF1EA8DCA617B9A999C11662E3CB27 /* Sources */,
+				AFA06316560EE43A763E7CE3CFABA7AE /* Frameworks */,
+				5000661C4DE2C50563F2EEDCF0F262FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45DF9EA0E8444355D19B4399308834C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-RazorPay APP";
+			productName = Pods_RazorPay_APP;
+			productReference = 431BA304B1DEC984AB385B771B0874F0 /* Pods-RazorPay APP */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1FE828894195CD685505E67DE4AB96F /* Pods-RazorPay APP-RazorPay APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484F72B4F8BC7AF04F16864974A1B5A1 /* Build configuration list for PBXNativeTarget "Pods-RazorPay APP-RazorPay APPUITests" */;
+			buildPhases = (
+				59E5CFE0A3FBB2371B9BC256C52B9B4D /* Headers */,
+				8DA17D232AA8011FBF1C3930124F0CE5 /* Sources */,
+				43CBD4C50A8A99268073DEF8576AD734 /* Frameworks */,
+				10A44B7EF27CB5E2910CB84E1BABE76E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4D6425F5EACD0FEC68C273B5B7E193B /* PBXTargetDependency */,
+			);
+			name = "Pods-RazorPay APP-RazorPay APPUITests";
+			productName = Pods_RazorPay_APP_RazorPay_APPUITests;
+			productReference = A9BA089EFA0697578E4AF1BBE0318812 /* Pods-RazorPay APP-RazorPay APPUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2CE0B08988EB9B817BF9FACFCD2D87C /* Pods-RazorPay APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D983FD66EE2BC6B922A366DB5281547 /* Build configuration list for PBXNativeTarget "Pods-RazorPay APPTests" */;
+			buildPhases = (
+				5221E73D83323497E57170569A0334CA /* Headers */,
+				9589EB3A049534AE2C49EB02154D0E32 /* Sources */,
+				8C0C9CB565B762AC6EC79031E37FEBD6 /* Frameworks */,
+				89CC009EA4E3132F1E2122275294EF31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AADEE49E01323DF107386087044797A3 /* PBXTargetDependency */,
+			);
+			name = "Pods-RazorPay APPTests";
+			productName = Pods_RazorPay_APPTests;
+			productReference = 97E631A2BBC07D2EA73FB4AAF20E4404 /* Pods-RazorPay APPTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4C975D6F66E23433CA25E1D5A7AF7E01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				254C3F60F04D930A7EED2A399C4C0F5E /* Pods-RazorPay APP */,
+				B1FE828894195CD685505E67DE4AB96F /* Pods-RazorPay APP-RazorPay APPUITests */,
+				D2CE0B08988EB9B817BF9FACFCD2D87C /* Pods-RazorPay APPTests */,
+				84CA3424E172CD651235AF0783D01D39 /* razorpay-pod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10A44B7EF27CB5E2910CB84E1BABE76E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5000661C4DE2C50563F2EEDCF0F262FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89CC009EA4E3132F1E2122275294EF31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DA17D232AA8011FBF1C3930124F0CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A953AB245AC53AE03690CAF46258E4 /* Pods-RazorPay APP-RazorPay APPUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9589EB3A049534AE2C49EB02154D0E32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC390B5BC7F8F5847FFB8A31A634FA45 /* Pods-RazorPay APPTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CF1EA8DCA617B9A999C11662E3CB27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5D7617FF1D99DF492C662F7BF57F10 /* Pods-RazorPay APP-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45DF9EA0E8444355D19B4399308834C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "razorpay-pod";
+			target = 84CA3424E172CD651235AF0783D01D39 /* razorpay-pod */;
+			targetProxy = 3B5188970771D2BDBE437A6ACD1CBB13 /* PBXContainerItemProxy */;
+		};
+		AADEE49E01323DF107386087044797A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RazorPay APP";
+			target = 254C3F60F04D930A7EED2A399C4C0F5E /* Pods-RazorPay APP */;
+			targetProxy = 4F48C725EEF6291C7412B32583CC473F /* PBXContainerItemProxy */;
+		};
+		B4D6425F5EACD0FEC68C273B5B7E193B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "razorpay-pod";
+			target = 84CA3424E172CD651235AF0783D01D39 /* razorpay-pod */;
+			targetProxy = F635F0257E31F8097FD56288DA9FC290 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		094EC3ADA40EF8F8D3627A99757F2FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 800E913294FE8F93CDF8BC9DE63E6382 /* Pods-RazorPay APP.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RazorPay APP/Pods-RazorPay APP-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RazorPay APP/Pods-RazorPay APP.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		187E3DC8DB8039AA8C44ED1E60AFD7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68ACD44654F3D19B4E1B4731DB84985A /* razorpay-pod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8BDC90FB8B8729C89959F19FF7413412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3B57FFB53EBBCCABF71F66B8B0B988B /* Pods-RazorPay APPTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RazorPay APPTests/Pods-RazorPay APPTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RazorPay APPTests/Pods-RazorPay APPTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF75A4FA7AE66F9569A878FDFD5E9807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F39E0490B1D6B04D7006A38D5C84991F /* Pods-RazorPay APPTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RazorPay APPTests/Pods-RazorPay APPTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RazorPay APPTests/Pods-RazorPay APPTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B81568FC05AD62FA0BDC20F47C68CF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5EC2FA811A02412E5AD0D04AE404027 /* Pods-RazorPay APP-RazorPay APPUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RazorPay APP-RazorPay APPUITests/Pods-RazorPay APP-RazorPay APPUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RazorPay APP-RazorPay APPUITests/Pods-RazorPay APP-RazorPay APPUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA81B55CEACBE1A7EC166B9386C47583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F83F5374624D937E926896FEDF11E65 /* Pods-RazorPay APP-RazorPay APPUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RazorPay APP-RazorPay APPUITests/Pods-RazorPay APP-RazorPay APPUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RazorPay APP-RazorPay APPUITests/Pods-RazorPay APP-RazorPay APPUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D29252EE0CE333765B263C242ED94DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A98EE791518B5D60CBAC3EA67248E20 /* Pods-RazorPay APP.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RazorPay APP/Pods-RazorPay APP-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RazorPay APP/Pods-RazorPay APP.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E25B1FDD3DEDCCD9481234661D0061A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120178BD89C7B2347D25247E1C2E80AF /* razorpay-pod.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D983FD66EE2BC6B922A366DB5281547 /* Build configuration list for PBXNativeTarget "Pods-RazorPay APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF75A4FA7AE66F9569A878FDFD5E9807 /* Debug */,
+				8BDC90FB8B8729C89959F19FF7413412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484F72B4F8BC7AF04F16864974A1B5A1 /* Build configuration list for PBXNativeTarget "Pods-RazorPay APP-RazorPay APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA81B55CEACBE1A7EC166B9386C47583 /* Debug */,
+				B81568FC05AD62FA0BDC20F47C68CF58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D1E60C3273CD321CBBBF93B81A07367 /* Build configuration list for PBXAggregateTarget "razorpay-pod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25B1FDD3DEDCCD9481234661D0061A9 /* Debug */,
+				187E3DC8DB8039AA8C44ED1E60AFD7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD7B5B31D1A683227DD80E0489060A32 /* Build configuration list for PBXNativeTarget "Pods-RazorPay APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29252EE0CE333765B263C242ED94DDE /* Debug */,
+				094EC3ADA40EF8F8D3627A99757F2FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
